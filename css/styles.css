@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  background-image: url("../img/city-background.jpg") ;
+  width: 100%;
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  height: 150px
+}
+
+h1 {
+  margin: 0;
+  padding-top: 45px;
+  color: #d5d5d5;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  text-decoration: none;
+  text-align: center;
+  font-size: 22px;
+  opacity: 0.6;
+  background-color: #000;
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 0;
+}
+
+ul li{
+  display: inline;
+  color: #fff;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+}
+
+ul li a:hover {
+  color: #bdbdbd;
+}
+
+
+@media  (max-width: 750px) {
+
+  .icon {
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 11px;
+    cursor: pointer;
+  }
+
+  ul {
+    display: none;
+    opacity: 0.8;
+  }
+
+  ul li {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  ul li a {
+    padding: 0 40%;
+  }
+
+  .hidden-menu {
+    height: 50px;
+    font-size: 22px;
+    opacity: 0.6;
+    background-color: #000;
+    margin: 0;
+    display: block;
+    cursor: pointer;
+  }
+
+  .show {
+    display: block;
+  }
+}
