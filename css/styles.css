@@ -4,9 +4,9 @@ body {
   font-family: arial;
   background-image: url("http://www.redpepperwallpaper.com/wp_highres/city/WPW734Q9.jpg") ;
   width: 100%;
-  height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover; /*Makes this responsive*/
   color:#d5d5d5;
   position:relative;
 }
